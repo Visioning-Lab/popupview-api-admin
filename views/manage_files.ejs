@@ -1,0 +1,28 @@
+<div class="content_area">
+  <h1>Manage Files</h1>
+  <h3>Upload new file</h3>
+  <form action="/upload_file" method="post" enctype="multipart/form-data">
+	<div class="form-group">
+		<input type="file" name="filetoupload"><br>
+		<input class="btn btn-primary" role="button" type="submit" name="upload_file" value="Upload file">
+	</div>
+  </form>
+  <hr/>
+  <h3>Current files</h3>
+  <% if (files) {%>
+  <ul class="list-group">
+	  <% for (var i = 0; i < files.length; i++) { %>
+	  <li class="list-group-item"><%= files[i] %> <a href="#" class="btn btn-danger" role="button" onclick="deleteFile('<%= files[i] %>')">Delete</a></li>
+	  <% } %>
+   </ul>
+  <% } else { %>
+	 <p>There are currently no files.</p>
+  <% } %>
+</div>
+<script>
+function deleteFile(filename) {
+    if (confirm("Are you sure you want to delete "+filename+"?")) {
+        window.location.href = '/delete_file/'+filename;
+    }
+}
+</script>

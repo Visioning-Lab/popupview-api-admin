@@ -1,0 +1,41 @@
+<h3>Edit location</h3>
+<form method="post" action="/edit_location">
+  <input type="hidden" name="id" value="<%= location.id %>">
+  <div class="form-group">
+    <label for="friendlyName">Friendly Name</label>
+    <input type="text" class="form-control" id="friendlyName" name="friendlyName" value="<%= location.friendlyName %>">
+  </div>
+  <div class="form-group">
+    <label for="bannerImagePath">Banner Image Path</label>
+    <input type="text" class="form-control" id="bannerImagePath" name="bannerImagePath" value="<%= location.bannerImagePath %>">
+  </div>
+  <div class="form-group">
+    <label for="infoURL">Info URL</label>
+    <input type="text" class="form-control" id="infoURL" name="infoURL" value="<%= location.infoURL %>">
+  </div>
+  <div class="form-group">
+    <label for="assetPath">Asset Path</label>
+    <input type="text" class="form-control" id="assetPath" name="assetPath" value="<%= location.assetPath %>">
+  </div>
+  <div class="form-group">
+    <label for="scenePath">Scene Path</label>
+    <input type="text" class="form-control" id="scenePath" name="scenePath" value="<%= location.scenePath %>">
+  </div>
+  <div class="form-group">
+    <label for="assetPath">Asset Path (iOS)</label>
+    <input type="text" class="form-control" id="assetPath" name="assetPathiOS" value="<%= location.assetPathiOS %>">
+  </div>
+  <div class="form-group">
+    <label for="scenePath">Scene Path (iOS)</label>
+    <input type="text" class="form-control" id="scenePath" name="scenePathiOS" value="<%= location.scenePathiOS %>">
+  </div>
+  <div class="form-group">
+    <label for="assetPath">Asset Path (Android)</label>
+    <input type="text" class="form-control" id="assetPath" name="assetPathAndroid" value="<%= location.assetPathAndroid %>">
+  </div>
+  <div class="form-group">
+    <label for="scenePath">Scene Path (Android)</label>
+    <input type="text" class="form-control" id="scenePath" name="scenePathAndroid" value="<%= location.scenePathAndroid %>">
+  </div>
+  <button type="submit" class="btn btn-primary">Save</button>
+</form>
