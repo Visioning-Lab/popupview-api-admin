@@ -405,3 +405,159 @@
 {"service":"manageFilesController","message":"Error uploading the file:Error: EPERM: operation not permitted, rename 'C:\\Users\\sukola\\AppData\\Local\\Temp\\upload_7fe1e2df112719c23a32855ea394adf6' -> 'C:\\olli_dev\\popupview-api\\download_files'","level":"error","timestamp":"2020-01-23 09:06:57 PM +0000"}
 {"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-01-23 09:06:57 PM +0000"}
 {"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-01-23 09:16:22 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:18:04 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:21:25 PM +0000"}
+{"service":"manageLocationsController","message":"Request to list locations","level":"info","timestamp":"2020-02-17 09:21:48 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:24:53 PM +0000"}
+{"service":"manageLocationsController","message":"Request to list locations","level":"info","timestamp":"2020-02-17 09:24:57 PM +0000"}
+{"service":"manageLocationsController","message":"Request to list locations","level":"info","timestamp":"2020-02-17 09:25:06 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 09:25:50 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:26:19 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 09:26:22 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:27:26 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 09:27:31 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 09:27:38 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:28:13 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 09:28:16 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:28:40 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 09:28:43 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:29:33 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 09:29:36 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:30:47 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 09:30:53 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:54:58 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:56:27 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:57:20 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 09:57:39 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 09:59:20 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 09:59:31 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 10:03:07 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 10:03:26 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 10:04:37 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 10:10:09 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 10:10:16 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 10:12:40 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 10:12:45 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 10:12:49 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 10:51:43 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 10:51:52 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 10:52:27 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 10:54:04 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 10:54:09 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 10:54:34 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:00:59 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:01:04 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:01:10 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:01:48 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:01:51 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:02:10 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:02:13 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:02:18 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:02:19 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:03:12 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:03:22 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:03:44 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:03:46 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:19:04 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:19:10 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:19:15 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:19:56 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:20:01 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:20:05 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:21:18 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:21:21 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:21:24 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:23:03 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:23:06 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:23:13 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:23:13 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:23:23 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:23:57 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:23:58 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:29:09 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:29:16 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:29:21 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:29:21 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:30:15 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:30:20 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:30:23 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:30:24 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:33:02 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:33:10 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:33:13 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:33:14 PM +0000"}
+{"service":"manageFilesController","message":"Request to delete file:groupsassets","level":"info","timestamp":"2020-02-17 11:35:34 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:35:34 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:35:42 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:35:42 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:36:13 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:36:18 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:36:18 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:36:18 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:36:18 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:36:23 PM +0000"}
+{"service":"manageFilesController","message":"Request to delete file:Innsaei-logo-1.jpg","level":"info","timestamp":"2020-02-17 11:36:27 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:36:27 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:38:10 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:38:21 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:38:34 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:38:35 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:38:35 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:38:56 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:38:56 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:38:56 PM +0000"}
+{"service":"manageFilesController","message":"Request to delete file:Innsaei-logo-1.jpg","level":"info","timestamp":"2020-02-17 11:39:01 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:39:01 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-17 11:43:21 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:43:34 PM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-17 11:43:38 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:43:38 PM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-17 11:43:38 PM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-18 08:49:21 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 08:50:11 AM +0000"}
+{"service":"manageFilesController","message":"Request to delete file:groupsassets","level":"info","timestamp":"2020-02-18 08:50:38 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 08:50:38 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 09:54:46 AM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-18 09:55:37 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 09:55:38 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 09:55:38 AM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-18 09:58:00 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 09:58:21 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 09:58:28 AM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-18 09:58:41 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 09:58:42 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 09:58:42 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 09:59:29 AM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-18 10:03:26 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:03:33 AM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-18 10:03:37 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:03:37 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:03:38 AM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-18 10:20:24 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:20:28 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:20:42 AM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-18 10:30:33 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:30:36 AM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-18 10:31:02 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:31:05 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:31:06 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:31:07 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:31:14 AM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-18 10:32:06 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:32:09 AM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-18 10:32:35 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:32:41 AM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-18 10:33:26 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:33:30 AM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-18 10:33:37 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:33:37 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:33:37 AM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-18 10:38:45 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:38:49 AM +0000"}
+{"service":"manageFilesController","message":"Request to delete file:groupsassets","level":"info","timestamp":"2020-02-18 10:38:55 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:38:55 AM +0000"}
+{"service":"manageFilesController","message":"Request to upload file","level":"info","timestamp":"2020-02-18 10:39:01 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:39:01 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:39:01 AM +0000"}
+{"service":"server","message":"Administration server started on: 3010","level":"info","timestamp":"2020-02-18 10:41:15 AM +0000"}
+{"service":"manageFilesController","message":"Request to list files","level":"info","timestamp":"2020-02-18 10:41:26 AM +0000"}

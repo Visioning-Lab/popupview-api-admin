@@ -15,7 +15,7 @@ exports.list_locations = function(req, res) {
 	}); 
 	
 	Location.findAll().then(locations => {
-		res.render('manage_locations', { userContext, locations })
+		res.render('manage_locations', { userContext, locations, req })
 	});	
 };
 
@@ -63,7 +63,7 @@ exports.edit_location = function(req, res) {
 				  location = {id:0, friendlyName:"", bannerImagePath:"", infoURL:"", assetPath:"", scenePath:"", assetPathiOS:"", scenePathiOS:"", assetPathAndroid:"", scenePathAndroid:""};			
 				}
 				
-				res.render('edit_location', { userContext, location });
+				res.render('edit_location', { userContext, location, req });
 				
 			});	
 		}else{

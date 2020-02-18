@@ -9,7 +9,7 @@ router.get('/uptime', uptime.uptime);
 
 router.get('/', (req, res) => {
 	const { userContext } = req
-    res.render('index', { userContext })
+    res.render('index', { userContext, req })
 })
 
 router.get('/manage_files', manage_files.list_files);

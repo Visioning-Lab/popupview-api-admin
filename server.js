@@ -14,6 +14,7 @@ app.set('view engine', 'ejs')
 
 app.use(express.urlencoded({ extended: true }))
 app.use('/static', express.static('public'))
+app.use('/dropzone', express.static(path.join(__dirname, 'node_modules/dropzone/dist')))
 app.use(partials());
 
 app.use(require('express-session')({

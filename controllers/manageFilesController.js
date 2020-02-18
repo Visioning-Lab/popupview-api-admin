@@ -27,7 +27,7 @@ exports.list_files = function(req, res) {
 			}); 
 		} 
 		
-		res.render('manage_files', { userContext, files })
+		res.render('manage_files', { userContext, files, req })
 	});
 };
 
@@ -72,7 +72,7 @@ exports.upload_file = function(req, res) {
 					message: 'Error uploading the file:' + err
 				});
 			}
-			fs.rename(files.filetoupload.path, process.env.DOWNLOAD_FILE_DIRECTORY+files.filetoupload.name, function (err) {
+			fs.rename(files.file.path, process.env.DOWNLOAD_FILE_DIRECTORY+files.file.name, function (err) {
 				if (err) { 
 					logger.error({
 						service: service,
@@ -82,13 +82,13 @@ exports.upload_file = function(req, res) {
 				
 					//Update location record last updated date, if file with this name is already part of the a location config.
 					var locationName = "";
-					Location.findAll({ where: { [Op.or]: [{bannerImagePath: String(files.filetoupload.name)}, 
-													  {assetPath: String(files.filetoupload.name)}, 
-													  {assetPathiOS: String(files.filetoupload.name)}, 
-													  {assetPathAndroid: String(files.filetoupload.name)}, 
-													  {scenePath: String(files.filetoupload.name)}, 
-													  {scenePathiOS: String(files.filetoupload.name)}, 
-													  {scenePathAndroid: String(files.filetoupload.name)}
+					Location.findAll({ where: { [Op.or]: [{bannerImagePath: String(files.file.name)}, 
+													  {assetPath: String(files.file.name)}, 
+													  {assetPathiOS: String(files.file.name)}, 
+													  {assetPathAndroid: String(files.file.name)}, 
+													  {scenePath: String(files.file.name)}, 
+													  {scenePathiOS: String(files.file.name)}, 
+													  {scenePathAndroid: String(files.file.name)}
 													] } }).then(locations => {
 						for (var i = 0; i < locations.length; i++) {
 							locationName = locations[i].friendlyName;
@@ -102,10 +102,10 @@ exports.upload_file = function(req, res) {
 			});
 			
 			//Forward back to manage files page.
-			if(files.filetoupload.name=="")
-				req.flash('error_msg', 'Please select file before you press upload..');
+			if(files.file.name=="")
+				req.flash('error_msg', 'Please select file before you press upload.');
 			else
-				req.flash('success_msg', 'Successfully uploaded file: '+files.filetoupload.name);
+				req.flash('success_msg', 'Successfully uploaded file: '+files.file.name);
 			res.redirect('/manage_files');
 		});
 	}else

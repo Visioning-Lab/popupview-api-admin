@@ -1,11 +1,10 @@
 <div class="content_area">
   <h1>Manage Files</h1>
   <h3>Upload new file</h3>
-  <form action="/upload_file" method="post" enctype="multipart/form-data">
-	<div class="form-group">
-		<input type="file" name="filetoupload"><br>
-		<input class="btn btn-primary" role="button" type="submit" name="upload_file" value="Upload file">
-	</div>
+  <form id="upload-widget" action="/upload_file" method="post" enctype="multipart/form-data" class="dropzone">
+	  <div class="fallback">
+		<input name="file" type="file" />
+	  </div>
   </form>
   <hr/>
   <h3>Current files</h3>
@@ -20,6 +19,16 @@
   <% } %>
 </div>
 <script>
+Dropzone.options.uploadWidget = {
+    maxFiles: 1, 
+    init: function () {
+        // Set up any event handlers
+        this.on('queuecomplete', function () {
+            window.location.href = "/manage_files?uploadsuccess=true";
+        });
+    }
+};
+
 function deleteFile(filename) {
     if (confirm("Are you sure you want to delete "+filename+"?")) {
         window.location.href = '/delete_file/'+filename;
